@@ -13,10 +13,10 @@ const routes = [
     meta: { title: 'Home' }
   },
   {
-    path: '/portfolio',
-    name: 'portfolio',
-    component: () => import('@/views/PortfolioView.vue'),
-    meta: { title: 'Portfolio' }
+    path: '/projects',
+    name: 'projects',
+    component: () => import('@/views/ProjectsView.vue'),
+    meta: { title: 'projects' }
   },
   {
     path: '/about',

@@ -7,7 +7,7 @@
     <div class="routers">
       <router-link :to="{ name: 'home'}" class="router">Home</router-link>
       <router-link :to="{ name: 'about'}" class="router">About</router-link>
-      <router-link :to="{ name: 'portfolio'}" class="router">Portfolio</router-link>
+      <router-link :to="{ name: 'projects'}" class="router">Projects</router-link>
       <router-link :to="{ name: 'contact'}" class="router">Contact</router-link>
     </div>
   </header>

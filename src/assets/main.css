@@ -48,6 +48,17 @@ body {
 }
 
 /********************************************
+Global and common styles
+********************************************/
+
+.horizontal-line {
+  border: none;
+  border-top: 1px solid var(--primary-100);
+  opacity: 0.5;
+  max-width: 90%;
+}
+
+/********************************************
 Basic settings for animations
 ********************************************/
 @keyframes fadeInUp {

@@ -9,24 +9,11 @@ import MainFooter from '@/components/MainFooter.vue'
 
     <section class="page-content about-me">
       <h1>About me</h1>
-      <p>I am a software developer passionate about solving complex problems and transforming ideas into solutions that truly add value. I am motivated by curiosity and continuous learning, always looking for new ways to optimize processes and make technology more accessible and useful for people. I firmly believe that every project is an opportunity to grow as a professional and, at the same time, to contribute positively to the environment in which it is applied.</p>
-      <p>I currently work as a <span>Senior Software Developer at LETSMEP</span>, where I lead the development of automated solutions and cloud infrastructure management with <span>Azure</span> and <span>Autodesk Platform Services (Forge)</span>. My experience includes implementing CI/CD pipelines, designing custom tools to optimize technical processes, and coordinating cross-functional teams. Previously, I was a <span>Python Developer at JSS Efficient Engineering</span>, where I focused on creating tools to improve operational efficiency through automation and custom reporting.</p>
-      <p>My stack integrates <span>backend</span>, <span>frontend</span>, and <span>database</span> technologies, with expertise in <span>Python</span>, <span>.NET</span> (C#), <span>Vue.js</span> (JavaScript), <span>Angular</span> (TypeScript), <span>SQL</span>, <span>Azure</span>, and <span>Docker</span>. My approach focuses on building efficient, scalable, and sustainable solutions, always applying best practices in software development and architecture.</p>
-      <p>My background combines areas of artificial intelligence, data science, and software development:</p>
-      <ul>
-        <li>Artificial Intelligence – Tokyo School (In progress)</li>
-        <li>Big Data & Business Intelligence – Universidad Isabel I (2025)</li>
-        <li>Multiplatform Application Development – iFP (2025)</li>
-        <li>Data Scientist – Universitat Oberta de Catalunya (2023)</li>
-        <li>Python Programmer – Tokyo School (2022)</li>
-      </ul>
-      <p>In addition, I hold certifications such as <span>Introduction to Artificial Intelligence (CS50AI, Harvard)</span>, which reinforces my commitment to continuous learning and the ethical application of technology.</p>
-      <p>Beyond my professional experience, I have developed projects that reflect my interest in creating solutions with real impact:</p>
-      <ul>
-        <li><span>Jummy:</span> Plataforma digital para la hosteleria que transforma la interaccion entre restaurantes y clientes. Incluye gestion de menus digitales, pedidos en tiempo real y un sistema de pagos seguro.</li>
-        <li><span>EcoBalance:</span> Herramienta para calcular la captura de CO<sub>2</sub> de especies arboreas y recomendar planes de plantacion para mitigar emisiones.</li>
-      </ul>
-      <p>These projects have allowed me to apply modern technologies such as <span>Flask</span>, <span>Vue.js</span>, <span>MySQL</span>, <span>Auth0</span>, <span>Render</span> and <span>Clever Cloud</span>, combining technical innovation with solutions applicable to everyday life.</p>
+      <p>I am a software developer specializing in creating solutions that improve the technical and operational efficiency of companies. I combine experience in <span>Python, C#, Angular, SQL, Docker, and Azure</span> with a strong focus on process automation and cloud application development.</p>
+      <p>Throughout my career, I have designed and implemented <span>automated tools, CI/CD pipelines, and cloud applications</span> that have optimized workflows and enhanced collaboration in demanding environments. I am motivated to build software that truly adds value, solving problems in an elegant and scalable way.</p>
+      <p>I currently work as a <span>Principal Software Developer</span>, where I lead advanced technical solutions, manage infrastructure in <span>Azure and Autodesk Platform Services</span>, and contribute to improving the integration and productivity of multidisciplinary teams.</p>
+      <p>At the same time, I continue to train in areas such as <span>Artificial Intelligence</span>, keeping up to date with emerging technologies to continue growing professionally.</p>
+      <p>I am a curious, results-oriented person who is passionate about transforming ideas into tools that make a difference.</p>
       <h2>Pedro Rizquez</h2>
       <h3>Passionate about building efficient solutions through code</h3>
     </section>

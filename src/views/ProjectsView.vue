@@ -3,7 +3,8 @@ import MainHeader from '@/components/MainHeader.vue';
 import MainFooter from '@/components/MainFooter.vue';
 import Project from '@/components/Project.vue';
 
-import common from '@/assets/images/png/Common.png'
+import common from '@/assets/images/png/Common.png';
+import a_start from '@/assets/images/png/a_star.png';
 
 /**
  * Object containing AutoDocMind project information.
@@ -18,14 +19,37 @@ import common from '@/assets/images/png/Common.png'
  * @property {string} linkHref     URL of the external resource (e.g., repository).
  */
 const autodocmind = {
-  title: 'AutoDocMind ',
+  title: 'AutoDocMind',
   imgSrc: common,
   imgAlt: 'Common app logo',
-  description: 'AutoDocMind is a tool that automatically analyzes code repositories to generate clear and useful documentation. It combines static code analysis with natural language processing to provide a comprehensive overview of the project, its dependencies, and its internal structure.',
-  technologies: 'Python - AI',
+  description: 'AutoDocMind is a tool that automatically analyzes code repositories to generate clear and useful documentation. Its goal is to save developers time by automatically creating files such as README, flowcharts, and explanations of each module, without relying on manual writing.',
+  technologies: 'Python',
   note: 'This project is currently under development and is ready to be executed through the console terminal.',
   linkLabel: 'Browse the repository',
   linkHref: 'https://github.com/Rizquez/AutoDocMind'
+}
+
+/**
+ * Object containing A* project information.
+ * 
+ * @property {string} title        Project name.
+ * @property {string} imgSrc       Path or import of the representative image.
+ * @property {string} imgAlt       Alternative text for the image (accessibility).
+ * @property {string} description  General description of the project.
+ * @property {string} technologies Technologies used in the project.
+ * @property {string} note         Explanatory note or project status.
+ * @property {string} linkLabel    Text of the link to access the resource.
+ * @property {string} linkHref     URL of the external resource (e.g., repository).
+ */
+const a_star_algorithm = {
+  title: 'A* Algorithm',
+  imgSrc: a_start,
+  imgAlt: 'Common app logo',
+  description: 'The A* algorithm is widely used due to its ability to find optimal paths efficiently, combining uniform cost search with informed heuristics to improve performance.',
+  technologies: 'Python',
+  note: 'This project is educational in nature and serves to understand the basic principles and applications of the A* search algorithm.',
+  linkLabel: 'Browse the repository',
+  linkHref: 'https://github.com/Rizquez/a_star_algorithm'
 }
 </script>
 
@@ -34,9 +58,18 @@ const autodocmind = {
     <MainHeader />
 
     <section>
-      <h1>Portfolio</h1>
+      <h1>Personal projects</h1>
       <div class="projects">
         <Project v-bind="autodocmind" />
+      </div>
+    </section>
+
+    <hr class="horizontal-line" />
+
+    <section>
+      <h1>Learning projects</h1>
+      <div class="projects">
+        <Project v-bind="a_star_algorithm" />
       </div>
     </section>
 
@@ -50,6 +83,8 @@ h1 {
   font-size: 2.5rem;
   text-align: center;
   color: var(--primary-100);
+  margin-bottom: 0;
+  padding-top: 20px;
 }
 
 .projects {
