@@ -7,7 +7,7 @@ import common from '@/assets/images/png/Common.png';
 import a_start from '@/assets/images/png/a_star.png';
 
 /**
- * Object containing AutoDocMind project information.
+ * Object containing Codemnesis project information.
  * 
  * @property {string} title        Project name.
  * @property {string} imgSrc       Path or import of the representative image.
@@ -18,15 +18,15 @@ import a_start from '@/assets/images/png/a_star.png';
  * @property {string} linkLabel    Text of the link to access the resource.
  * @property {string} linkHref     URL of the external resource (e.g., repository).
  */
-const autodocmind = {
-  title: 'AutoDocMind',
+const codemnesis = {
+  title: 'Codemnesis',
   imgSrc: common,
   imgAlt: 'Common app logo',
-  description: 'AutoDocMind is a tool that automatically analyzes code repositories to generate clear and useful documentation. Its goal is to save developers time by automatically creating files such as README, flowcharts, and explanations of each module, without relying on manual writing.',
+  description: 'Codemnesis is a tool that automatically analyzes code repositories to generate clear and useful documentation. Its goal is to save developers time by automatically creating files such as README, flowcharts, and explanations of each module, without relying on manual writing.',
   technologies: 'Python',
   note: 'This project is currently under development and is ready to be executed through the console terminal.',
   linkLabel: 'Browse the repository',
-  linkHref: 'https://github.com/Rizquez/AutoDocMind'
+  linkHref: 'https://github.com/Rizquez/Codemnesis'
 }
 
 /**
@@ -49,7 +49,7 @@ const a_star_algorithm = {
   technologies: 'Python',
   note: 'This project is educational in nature and serves to understand the basic principles and applications of the A* search algorithm.',
   linkLabel: 'Browse the repository',
-  linkHref: 'https://github.com/Rizquez/a_star_algorithm'
+  linkHref: 'https://github.com/Rizquez/a-star-algorithm'
 }
 </script>
 
@@ -60,7 +60,7 @@ const a_star_algorithm = {
     <section>
       <h1>Personal projects</h1>
       <div class="projects">
-        <Project v-bind="autodocmind" />
+        <Project v-bind="codemnesis" />
       </div>
     </section>
 
